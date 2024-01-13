@@ -84,8 +84,18 @@ async function getMO() {
                 inline: true
             },
             {
+                name: `Social blacklisted :mute:`,
+                value: data.social_blacklisted.toString(),
+                inline: true
+            },
+            {
                 name: `Users today :chart_with_upwards_trend:`,
                 value: data.daily_users.toString(),
+                inline: true
+            },
+            {
+                name: `Active today :chart_with_upwards_trend:`,
+                value: data.active_today.toString(),
                 inline: true
             },
             {
